@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="background-color: #f1f4f5; height: 100vh; overflow: hidden; font-family: 'Raleway', sans-serif;">
+    <div class="header">
+        <h1>Logo</h1>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li style="border-bottom: 5px solid blue"><a href="issues.html">Issues</a></li>
+          <li><a href="users.html">Users</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="main-container1">
+      <div class="container1">
+        <div class="text">
+          <h2>Issues
+            <span>
+          <button class="button" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Add Issue</button>
+          </span>
+          </h2>
+        </div>
+        <table class="table-column">
+    
+  
+        <tr>
+          <th>Issue</th>
+          <th>Assigned To</th>
+          <th>Assigned By</th>
+          <th>Due Date</th>
+          <th>Status</th>
+        </tr>
+  
+        <tr>
+          <td>Issue1</td>
+          <td>User1</td>
+          <td>User8</td>
+          <td>22/02/2021</td>
+          <td><button class="btn">Recived</button></td>
+        </tr>
+  
+        <tr>
+          <td>Issue2</td>
+          <td>User1</td>
+          <td>User8</td>
+          <td>18/02/2021</td>
+          <td><button class="btn">Recived</button></td>
+        </tr>
+  
+        <tr>
+          <td>Issue3</td>
+          <td>User2</td>
+          <td>User8</td>
+          <td>02/02/2021</td>
+          <td><button class="btn1">Conflicts</button>
+        </tr>
+  
+        <tr>
+          <td>Issue4</td>
+          <td>user3</td>
+          <td>user8</td>
+          <td>02/02/2021</td>
+          <td><button class="btn2">Overdue</button></td>
+        </tr>
+  
+        <tr>
+          <td>Issue5</td>
+          <td>user2</td>
+          <td>user8</td>
+          <td>01/02/2021</td>
+          <td><button class="btn">Recived</button></td>
+        </tr>
+
+        <tr>
+            <td>Issue1</td>
+            <td>User1</td>
+            <td>User8</td>
+            <td>22/02/2021</td>
+            <td><button class="btn">Recived</button></td>
+          </tr>
+    
+          <tr>
+            <td>Issue2</td>
+            <td>User1</td>
+            <td>User8</td>
+            <td>18/02/2021</td>
+            <td><button class="btn">Recived</button></td>
+          </tr>
+    
+          <tr>
+            <td>Issue3</td>
+            <td>User2</td>
+            <td>User8</td>
+            <td>02/02/2021</td>
+            <td><button class="btn1">Conflicts</button>
+          </tr>
+    
+          <tr>
+            <td>Issue4</td>
+            <td>user3</td>
+            <td>user8</td>
+            <td>02/02/2021</td>
+            <td><button class="btn2">Overdue</button></td>
+          </tr>
+    
+          <tr>
+            <td>Issue4</td>
+            <td>user3</td>
+            <td>user8</td>
+            <td>02/02/2021</td>
+            <td><button class="btn2">Overdue</button></td>
+          </tr>
+      </table>
+      </div>
+      </div>
+  
+    <footer class="foot1">
+      <h1>Copyrights</h1>
+    </footer>
+
+    <div id="login-form" class="login-page">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" onclick="login()" class="toggle-btn">Add Issue</button>
+        </div>
+        <form id="login" class="input-group-login">
+          <input type="text" class="input-field" placeholder="Email Id" required>
+          <input type="password" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>Remember Password</span>
+          <button type="submit" class="submit-btn">Log in</button>
+        </form>
+      </div>
+    </div>
+        
+</body>
+</html>
